@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+// ê¹ƒí—ˆë¸Œì—ì„œ ìˆ˜ì •ë¨.
 void main() 
 {
 	// Hello, world!
@@ -21,13 +21,13 @@ void main()
 	scanf("%c %d %d %f", &val_char, &val_int, &val_long, &val_float);
 	
 	printf("\n\n\n\n\n\nHello, world!\n\n\n\n\n\n");
-	printf("  Á¤¼ö Ãâ·Â Å×½ºÆ® : [%12d]\n", val_int);
-	printf("  ½Ç¼ö Ãâ·Â Å×½ºÆ® : [%12.8f]\n", val_float);
-	printf("  ½Ç¼ö Ãâ·Â Å×½ºÆ® : [%12e]\n", val_double);
+	printf("  ì •ìˆ˜ ì¶œë ¥ í…ŒìŠ¤íŠ¸ : [%12d]\n", val_int);
+	printf("  ì‹¤ìˆ˜ ì¶œë ¥ í…ŒìŠ¤íŠ¸ : [%12.8f]\n", val_float);
+	printf("  ì‹¤ìˆ˜ ì¶œë ¥ í…ŒìŠ¤íŠ¸ : [%12e]\n", val_double);
 
-	printf(" 8Áø¼ö Ãâ·Â Å×½ºÆ® : [%12o]\n", val_int);
-	printf("16Áø¼ö Ãâ·Â Å×½ºÆ® : [%12x]\n", val_int);
+	printf(" 8ì§„ìˆ˜ ì¶œë ¥ í…ŒìŠ¤íŠ¸ : [%12o]\n", val_int);
+	printf("16ì§„ìˆ˜ ì¶œë ¥ í…ŒìŠ¤íŠ¸ : [%12x]\n", val_int);
 
-	printf("  ¹®ÀÚ Ãâ·Â Å×½ºÆ® : [%c]\n", val_char);
-	printf("  ¹®ÀÚ ¿¬»ê Å×½ºÆ® : [%c]\n", val_char + 1);
+	printf("  ë¬¸ì ì¶œë ¥ í…ŒìŠ¤íŠ¸ : [%c]\n", val_char);
+	printf("  ë¬¸ì ì—°ì‚° í…ŒìŠ¤íŠ¸ : [%c]\n", val_char + 1);
 }
