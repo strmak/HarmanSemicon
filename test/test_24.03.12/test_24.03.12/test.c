@@ -33,17 +33,17 @@ void test03() {
 	char buf[100];		// 안전 메모리 공간
 	char* pbuf;			// 안전 메모리 공간중의 출력 위치
 	unsigned int addr;	// 출력 위치 지정을 위한 입력변수(주소)
-	char* kbuf[100];	// 출력 문자열 입력 공간
+	char kbuf[100];	// 출력 문자열 입력 공간
 
-	printf("Address of stable space is %d[%08x].\n", buf, buf);
+	printf("Address of stable space is %d[%08x].\n", (unsigned int)buf, buf);
 	printf("Enter the starting address : ");
 	scanf("%d", &addr);	// 안전 공간 주소 참고
 	pbuf = buf + addr;
 
 	printf("Enter the string : ");
-	scanf("%s", *kbuf);
-	Copy(*pbuf, *kbuf);
-	Dump(*buf, 100);
+	scanf("%s", kbuf);
+	Copy(pbuf, kbuf);
+	Dump(buf, 100);
 }
 
 void Dump(char *p, int len)		// 메모리 공간 출력용 범용 함수
