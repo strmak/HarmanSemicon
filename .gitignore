@@ -30,3 +30,14 @@
 *.exe
 *.out
 *.app
+/.vs
+/test01/.vs/test01
+/test_24.03.11/.vs/test_24.03.11
+/test01/test01/x64/Debug
+/test01/x64/Debug
+/test_24.03.11/test_24.03.11/x64/Debug
+/test_24.03.11/x64/Debug
+/test_24.03.12/.vs/test_24.03.12/FileContentIndex
+/test_24.03.12/.vs/test_24.03.12/v17
+/test_24.03.12/test_24.03.12/x64/Debug
+/test_24.03.12/x64/Debug
