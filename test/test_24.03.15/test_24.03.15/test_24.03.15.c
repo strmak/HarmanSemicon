@@ -34,7 +34,7 @@ int main()
 
     for (int i = 0; i < 5; i++)
     {
-        printf("%s ", fruit[i]);    // apple, banana, grape, orange, lemon
+        printf("%s ", fruit[i]);    // apple, banana, grape, lemon, orange
     }
 
     printf("\n");

@@ -18,20 +18,19 @@ void swap(void* fir, void* sec)
 	sec = buf;
 }
 
-void sort_str(char* str[], int cnt)
+void sort_str(char** str, int cnt)
 {
-	char buf[100];
+	char* buf[100];
 	for (int i = 0; i < cnt; i++)
 	{
 		for (int j = 0; j < cnt - 1; j++)
 		{
-			if (str[j] > str[j+1])
+			if (*(str[j]) > *(str[j+1]))
 			{
 				*buf = str[j];
 				str[j] = str[j + 1];
 				str[j + 1] = *buf;
 			}
-			printf("%s ", str[j]);
 		}
 	}
 }
