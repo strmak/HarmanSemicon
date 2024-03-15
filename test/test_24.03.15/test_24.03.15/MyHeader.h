@@ -5,7 +5,7 @@
 #include <math.h>
 
 void swap(void* fir, void* sec);
-void sort_str(char* str, int cnt);
+void sort_str(char** str, int cnt);
 void sort_num(char* str);
 void* min_num(void* num_arr);
 void* max_num(void* num_arr);
