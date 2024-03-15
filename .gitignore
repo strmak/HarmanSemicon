@@ -60,3 +60,6 @@
 /test/test_24.03.14/test_24.03.14/x64/Debug
 /test/test_24.03.14/x64/Debug
 *.zip
+/test/test_24.03.15/.vs/test_24.03.15
+/test/test_24.03.15/test_24.03.15/x64/Debug
+/test/test_24.03.15/x64/Debug
